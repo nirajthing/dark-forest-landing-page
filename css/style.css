@@ -1,0 +1,80 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+.bgimg
+{
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('../images/img4.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 700px;
+}
+
+.navbar-brand
+{
+    font-size: 35px !important;
+    font-family: 'Righteous', cursive;
+   
+}
+
+.headerset
+{
+    padding-top: 250px;
+    box-sizing: border-box;
+   
+}
+
+.headerset h1
+{
+    font-size: 90px;
+    color: #FFFFFF;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 900;
+}
+
+.headerset h2
+{
+    font-size: 20px;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar
+{
+    background: rgba(0, 0, 0, 0.6);
+}
+
+
+.navbar ul li a
+{
+    margin-left: 30px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 3px 0;
+    font-weight: 500;
+    letter-spacing: .2rem;
+    white-space: nowrap;            /*to write multiword in same line*/
+}
+
+.navbar ul li a:hover
+{
+    border-bottom: 2px solid #5ae03f;   
+}
+
+@media(max-width:479px)
+{
+    .headerset h2
+{
+    font-size: 33px;
+}
+
+.headerset h1
+{
+    font-size: 40px;
+}
+
+}
